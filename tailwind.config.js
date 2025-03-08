@@ -60,7 +60,7 @@ module.exports = {
       },
       screens: {
         xs: "480px",
-        <iframe src="https://deine-app-url.vercel.app" width="100%" height="800px" frameborder="0"></iframe>
+        <iframe src="https://v0.dev/chat/web-midi-app-spY8XBjKhdB?b=b_dwQOW8IS26U" width="100%" height="800px" frameborder="0"></iframe>
       },
     },
   },
