@@ -1,7 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: ["class"],
-  content: [
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
@@ -62,6 +60,7 @@ module.exports = {
       },
       screens: {
         xs: "480px",
+        <iframe src="https://deine-app-url.vercel.app" width="100%" height="800px" frameborder="0"></iframe>
       },
     },
   },
