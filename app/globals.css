@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 0%;
+  --foreground: 270 100% 95%;
+
+  --card: 240 5% 10%;
+  --card-foreground: 270 100% 95%;
+
+  --popover: 240 5% 10%;
+  --popover-foreground: 270 100% 95%;
+
+  --primary: 270 100% 56%;
+  --primary-foreground: 270 100% 95%;
+
+  --secondary: 240 5% 15%;
+  --secondary-foreground: 270 100% 95%;
+
+  --muted: 240 5% 10%;
+  --muted-foreground: 270 70% 85%;
+
+  --accent: 270 100% 56%;
+  --accent-foreground: 270 100% 95%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 270 30% 30%;
+  --input: 270 30% 30%;
+  --ring: 270 100% 56%;
+
+  --radius: 0.5rem;
+}
+
+body {
+  background-color: black;
+  color: rgb(243, 232, 255);
+}
+
+/* Custom scrollbar for the dark theme */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(24, 24, 27);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(91, 33, 182);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(126, 34, 206);
+}
+
